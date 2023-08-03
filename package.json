@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@iconify/iconify": "^3.1.1",
+    "devicon": "^2.15.1",
     "vue": "^3.2.25",
     "vue-router": "^4.2.4",
     "vue3-smooth-scroll": "^0.8.1"

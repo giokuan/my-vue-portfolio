@@ -3,7 +3,8 @@
   export default {
     data() {
       return {
-        showMenu: false,
+        showMenu: false, 
+      
       }
     },
   }
@@ -12,11 +13,6 @@
 
 
 <template>
-
-<!-- App.vue -->
-
-
-
 
 
   <div class="banner-1 h-full">
@@ -56,22 +52,22 @@
     </nav>
     <!-- End Navbar -->
 
-    <div class="flex flex-col mt-16 ">
-      <div class="relative  pl-6">
+    <div class="flex flex-col mt-16 items-center">
+      <div class="relative pl-6">
           <img
             class="rounded-full border border-black shadow-sm w-40 h-40"
             src="./assets/gio.png"
             alt="user image"
           />
         </div>
-      <div class="w-11/12 ">
+      <div class="w-full ">
         <!-- <h3
           class="hello-button text-gray-700 w-fit md:py-3 md:px-5 py-1 px-2 rounded-lg 3xl:text-3xl 2xl:text-xl lg:text-xl md:text-md text-sm font-semibold font-work_sans"
         >
           👋 Hi!,
         </h3> -->
         <h1
-          class="3xl:text-4xl 2xl:text-7xl xl:text-6xl lg:text-4xl md:text-3xl sm:text-3xl text-xl font-Eczar font-bold leading-tight text-black "
+          class="3xl:text-4xl 2xl:text-7xl xl:text-6xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl font-Eczar font-bold leading-tight text-black flex justify-center"
         >
         
           <!-- <a
@@ -82,8 +78,8 @@
            Giovanni Kuan
          
         </h1>
-        <p class="text-2xl mb-4">Software Developer</p>
-        <p class="text-xl"> I am a self-taught Software developer who designs and develops <br>fully-fledged and functioning platforms with databases.</p>
+        <p class="text-xl xl:text-3xl mb-4 flex items-center justify-center">Software Developer</p>
+        <p class="text-xl xl:text-2xl mb-4 flex items-center justify-center"> I am a self-taught Software developer who designs and develops<br> fully-fledged and functioning platforms with databases.</p>
 
         <!-- <div class="md:flex gap-1 md:gap-10">
           <button class="text-white bg-gray-800 submit-button hidden md:block">
@@ -110,18 +106,23 @@
   <div class="banner-2 space-y-10 pb-20" id="work">
     <h3 class="heading3 my-5">My Recent Work</h3>
 
-    <div class="card flex flex-col xl:flex-row">
+    <div class="card flex flex-col xl:flex-row justify-between">
       <div class="px-8  md:px-10">
         <h4 class="text-2xl my-4 font-bold">SJMC Membership Management System</h4>
         <p class="font-work_sans pr-4">
-          Tau Gamma Phi San Juan Municipal Council Membership Management System - is a web application designed to facilitate the management of fraternity membership for existing members of the Tau Gamma Phi San Juan Municipal Council. The system leverages the TALL stack, which includes Tailwind CSS, Alpine.js, Laravel, and Livewire.
-          The primary objective of the system is to provide an intuitive and efficient platform for managing fraternity membership information and facilitating communication between fraternity members and administrators.
-          
-          
+          Tau Gamma Phi San Juan Municipal Council Membership Management System - is a web application <br>
+          designed to facilitate the  management of fraternity membership for existing members of the 
+          Tau Gamma Phi<br> San Juan Municipal Council. The systemleverages the TALL stack, which includes
+          Tailwind CSS, Alpine.js, Laravel, and Livewire. Theprimary objective of the system is to provide 
+          an intuitive and efficient platform for managing fraternity membership information and facilitating
+          communication between fraternity members and administrators.
         </p>
+    
+        <Devicon :name="deviconName" :size="48" />
         <!-- <button class="text-sky-800 font-bold text-2xl tracking-wider">
           View Case Study
         </button> -->
+ 
       </div>
       <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
         <img
@@ -142,13 +143,14 @@
       </div>
     </div>
 
+    
     <div class="card flex flex-col xl:flex-row">
       <div class="px-8  md:px-10">
-        <h4 class="text-2xl my-4 font-bold">SJMC Membership Management System</h4>
+        <h4 class="text-2xl my-4 font-bold">TINHS PORTAL</h4>
         <p class="font-work_sans pr-4">
-          Tau Gamma Phi San Juan Municipal Council Membership Management System - is a web application designed to facilitate the management of fraternity membership for existing members of the Tau Gamma Phi San Juan Municipal Council. The system leverages the TALL stack, which includes Tailwind CSS, Alpine.js, Laravel, and Livewire.
-          The primary objective of the system is to provide an intuitive and efficient platform for managing fraternity membership information and facilitating communication between fraternity members and administrators.
-          
+          This school portal I have developed combines custom middleware with multi-authentication to deliver an 
+          innovative and inclusive educational experience for junior and senior high school students. By leveraging the power of technology, 
+          I aim to bridge the gap between students, teachers, and administrators, creating a seamless ecosystem.
           
         </p>
         <!-- <button class="text-sky-800 font-bold text-2xl tracking-wider">
@@ -174,181 +176,300 @@
       </div>
     </div>
 
-    <div class="card">
-      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">SJMC Membership Management System</h4>
-        <p class="font-work_sans pr-12">
-          Designed some empty state screens in kawaii style for the popular
-          sheepify app.Tailwind lets you conditionally apply utility classes in
-          different states using variant modifiers. For example, use hover:gap-6
-          to only apply the gap-6 utility
+    <div class="card flex flex-col xl:flex-row">
+      <div class="px-8  md:px-10">
+        <h4 class="text-2xl my-4 font-bold">PLANT BASE</h4>
+        <p class="font-work_sans pr-4">
+          A plant shop web application where user can find and buy ornamnetal indoor and outdoor ornamental plants for decorations
+          Aims to promote environmental awareness and influence people to take care of our planet by knowing how to grow plants.
+          
         </p>
-        <button class="text-sky-800 font-bold text-2xl tracking-wider">
+        <!-- <button class="text-sky-800 font-bold text-2xl tracking-wider">
           View Case Study
-        </button>
+        </button> -->
       </div>
-      <div class="card-image">
+      <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
         <img
-          class="object-cover w-full h-48 md:h-96"
-          src="./assets/project2.png"
+          class="xl:object-cover w-full h-full px-4 md:px-8"
+          src="./assets/mini3.png"
         />
+
+        <div class="flex gap-8 items-center justify-center">
+          <p class="font-bold mt-4 mb-4 text-xl">
+          <a href="#">View Live</a>
+        </p>
+
+        <p class="font-bold mt-4 mb-4 text-xl">
+          <a href="#"> Video Demo</a>
+        </p>
+        </div>
+     
       </div>
     </div>
 
-    <div class="card">
-      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title">Sheepify States</h4>
-        <p class="font-work_sans pr-12">
-          Designed some empty state screens in kawaii style for the popular
-          sheepify app.Tailwind lets you conditionally apply utility classes in
-          different states using variant modifiers. For example, use hover:gap-6
-          to only apply the gap-6 utility
+
+    <div class="card flex flex-col xl:flex-row">
+      <div class="px-8  md:px-10">
+        <h4 class="text-2xl my-4 font-bold">BARANGAY RESIDENT RECORD SYSTEM</h4>
+        <p class="font-work_sans pr-4">
+          A desktop software application developed using Python with PyQt5 and MySQL as the underlying technologies
+          its primary purpose is to facilitate the management and organization of resident information within a barangay (local community)
+          The system provides various search functionalities to efficiently retrieve specific groups of residents based on different criteria
+          
         </p>
-        <button class="text-sky-800 font-bold text-2xl tracking-wider">
+        <!-- <button class="text-sky-800 font-bold text-2xl tracking-wider">
           View Case Study
-        </button>
+        </button> -->
       </div>
-      <div class="card-image bg-green-100">
+      <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
         <img
-          class="object-cover w-full h-72 md:h-96"
-          src="./assets/tinhs.png"
+          class="xl:object-cover w-full h-full px-4 md:px-8"
+          src="./assets/brr.jpg"
         />
+
+        <div class="flex gap-8 items-center justify-center">
+          <p class="font-bold mt-4 mb-4 text-xl">
+          <a href="#">View Live</a>
+        </p>
+
+        <p class="font-bold mt-4 mb-4 text-xl">
+          <a href="#"> Video Demo</a>
+        </p>
+        </div>
+     
       </div>
     </div>
+
+
+    <div class="card flex flex-col xl:flex-row">
+      <div class="px-8  md:px-10">
+        <h4 class="text-2xl my-4 font-bold">THE LAZY READER</h4>
+        <p class="font-work_sans pr-4">
+          The Lazy Reader is a Python project a local desktop application that aims to provide a text-to-speech solution <br>specifically designed for children.
+          The primary functionality of the project is to convert text input into speech output, allowing children to listen to the text instead of reading it themselves.
+          Additionally, the project offers three different themes for children to choose from, enhancing the user experience and making it more engaging
+          
+        </p>
+        <!-- <button class="text-sky-800 font-bold text-2xl tracking-wider">
+          View Case Study
+        </button> -->
+      </div>
+      <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
+        <img
+          class="xl:object-cover w-full h-full px-4 md:px-8"
+          src="./assets/textspeech.png"
+        />
+
+        <div class="flex gap-8 items-center justify-center">
+          <p class="font-bold mt-4 mb-4 text-xl">
+          <a href="#">Source Code</a>
+        </p>
+
+        <p class="font-bold mt-4 mb-4 text-xl">
+          <a href="https://www.linkedin.com/posts/gio-kuan_python-qt5designer-sqlite3-activity-6765151030377373696-HJFQ?utm_source=share&utm_medium=member_desktop"> Video Demo</a>
+        </p>
+        </div>
+     
+      </div>
+    </div>
+
+    <div class="card flex flex-col xl:flex-row">
+      <div class="px-8  md:px-10">
+        <h4 class="text-2xl my-4 font-bold">SJMC DATABASE MANAGEMENT SYSTEM</h4>
+        <p class="font-work_sans pr-4">
+          The SJMC Database Management System is a desktop application developed using Python, PyQt5, and MySQL
+          The primary objective of this system is to manage a database for an organization called TGP SJMC
+        </p>
+        <!-- <button class="text-sky-800 font-bold text-2xl tracking-wider">
+          View Case Study
+        </button> -->
+      </div>
+      <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
+        <img
+          class="xl:object-cover w-full h-full px-4 md:px-8"
+          src="./assets/sjmclocal.png"
+        />
+
+        <div class="flex gap-8 items-center justify-center">
+          <p class="font-bold mt-4 mb-4 text-xl">
+          <a href="#">View Live</a>
+        </p>
+
+        <p class="font-bold mt-4 mb-4 text-xl">
+          <a href="#"> Video Demo</a>
+        </p>
+        </div>
+     
+      </div>
+    </div>
+
+
+
+
   </div>
 
-  <div class="banner-1" id="testimonial">
-    <div class="space-y-4 grid place-items-center mt-5">
-      <h3 class="heading3">Some Generous Words</h3>
-      <p class="font-work_sans text-gray-600 font-semibold leading-relaxed">
-        Some of my favorite testimonials from my clients
-      </p>
+
+  <p class="banner-1 text-yellow-600 md:text-5xl text-xl font-bold font-work_sans tracking-wide">MY STACKS</p>
+  <div class="banner-1 grid grid-cols-2 md:grid-cols-4 gap-4 h-full p-4 md:p-36 2xl:p-64">
+    
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/tailwind.png" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/mysql.png" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/php.png" alt="">
+        </div>
     </div>
-    <div class="max-w-6xl mx-auto px-8 py-16">
-      <div class="relative">
-        <div class="relative lg:flex rounded-lg shadow-2xl overflow-hidden">
-          <div
-            class="h-56 lg:h-auto lg:w-5/12 relative flex items-center justify-center"
-          >
-            <img
-              class="absolute h-full w-full object-cover"
-              src="https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png"
-              alt=""
-            />
-            <div class="absolute inset-0 bg-gray-700 opacity-75"></div>
-            <svg
-              class="relative"
-              width="200"
-              height="120"
-              viewBox="0 0 200 120"
-            >
-              <path
-                fill="#fff"
-                fill-rule="evenodd"
-                d="M63.75 75.24l2.5-5.93c2.7 2.05 6.3 3.13 9.85 3.13 2.61 0 4.27-1.03 4.27-2.6-.04-4.37-15.7-.95-15.82-11.9-.04-5.58 4.8-9.86 11.66-9.86 4.08 0 8.16 1.03 11.06 3.38l-2.34 6.05c-2.66-1.73-5.97-2.97-9.12-2.97-2.13 0-3.55 1.03-3.55 2.36.04 4.28 15.82 1.94 15.98 12.4 0 5.7-4.72 9.69-11.5 9.69-4.96 0-9.52-1.2-12.99-3.75zm96.01-8.08a7.16 7.16 0 0 1-8.11 3.5 7.35 7.35 0 0 1-5.38-7.13c0-3.34 2.2-6.27 5.38-7.12 3.16-.85 6.5.58 8.11 3.5l6.9-3.93a15.02 15.02 0 0 0-17.03-7.42 15.42 15.42 0 0 0-11.33 14.97c0 7.04 4.66 13.2 11.33 14.97a15.02 15.02 0 0 0 17.04-7.43l-6.9-3.9zM91.71 35.25h8.64v43.16h-8.64V35.25zm78.34 0v43.16h8.65V65.48l10.25 12.93H200l-13.03-15.37 12.06-14.34h-10.58l-9.76 11.9V35.25h-8.64zm-43.82 31.1a8.14 8.14 0 0 1-6.83 3.56 7.24 7.24 0 0 1-7.33-7.16 7.24 7.24 0 0 1 7.33-7.15 8.1 8.1 0 0 1 6.83 3.67v7.08zm0-18v3.4c-1.43-2.36-5-4-8.72-4-7.7 0-13.76 6.64-13.76 14.96 0 8.33 6.07 15.04 13.76 15.04 3.73 0 7.3-1.63 8.72-4v3.4H135v-28.8h-8.77zM10.53 66.4A5.32 5.32 0 0 1 5.3 71.8 5.32 5.32 0 0 1 .04 66.4a5.32 5.32 0 0 1 5.25-5.38h5.25v5.38zm2.63 0a5.32 5.32 0 0 1 5.25-5.38c2.9 0 5.25 2.4 5.25 5.38v13.46a5.32 5.32 0 0 1-5.25 5.39 5.32 5.32 0 0 1-5.25-5.39V66.4zm5.26-21.63a5.32 5.32 0 0 1-5.25-5.38A5.32 5.32 0 0 1 18.42 34c2.9 0 5.25 2.41 5.25 5.39v5.38h-5.25zm0 2.74c2.9 0 5.25 2.41 5.25 5.39a5.32 5.32 0 0 1-5.25 5.38H5.25A5.32 5.32 0 0 1 0 52.9a5.32 5.32 0 0 1 5.25-5.39h13.17zm21.03 5.39a5.32 5.32 0 0 1 5.25-5.39c2.9 0 5.25 2.41 5.25 5.39a5.32 5.32 0 0 1-5.25 5.38h-5.25V52.9zm-2.62 0a5.32 5.32 0 0 1-5.25 5.38 5.32 5.32 0 0 1-5.25-5.38V39.39A5.32 5.32 0 0 1 31.58 34c2.9 0 5.25 2.41 5.25 5.39v13.5zm-5.25 21.58c2.9 0 5.25 2.41 5.25 5.38a5.32 5.32 0 0 1-5.25 5.39 5.32 5.32 0 0 1-5.25-5.39v-5.38h5.25zm0-2.7a5.32 5.32 0 0 1-5.25-5.38 5.32 5.32 0 0 1 5.25-5.38h13.17c2.9 0 5.25 2.4 5.25 5.38a5.32 5.32 0 0 1-5.25 5.39H31.58z"
-              />
-            </svg>
-          </div>
-          <div class="relative lg:w-7/12 bg-white">
-            <svg
-              class="absolute h-full text-white w-24 -ml-12"
-              fill="currentColor"
-              viewBox="0 0 100 100"
-              preserveAspectRatio="none"
-            >
-              <polygon points="50,0 100,0 50,100 0,100" />
-            </svg>
-            <div
-              class="relative py-12 lg:py-24 px-8 lg:px-16 text-gray-700 leading-relaxed"
-            >
-              <p>
-                As
-                <strong class="text-gray-900 font-medium">Slack</strong> grows
-                rapidly, using Stripe helps them scale payments easily &mdash;
-                supporting everything from getting paid by users around the
-                world to enabling ACH payments for corporate customers.
-              </p>
-              <p class="mt-6">
-                <a
-                  href="#"
-                  class="font-medium text-indigo-600 hover:text-indigo-900"
-                >
-                  &rarr; Md Solaiman Hossain</a
-                >
-              </p>
-            </div>
-          </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/alpine.png" alt="">
         </div>
-        <div class="absolute inset-y-0 left-0 lg:flex lg:items-center">
-          <button
-            class="mt-24 lg:mt-0 -ml-6 h-12 w-12 rounded-full bg-white p-3 shadow-lg"
-          >
-            <svg
-              class="h-full w-full text-indigo-900"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M5.41 11H21a1 1 0 0 1 0 2H5.41l5.3 5.3a1 1 0 0 1-1.42 1.4l-7-7a1 1 0 0 1 0-1.4l7-7a1 1 0 0 1 1.42 1.4L5.4 11z"
-              />
-            </svg>
-          </button>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/vue.png" alt="">
         </div>
-        <div class="absolute inset-y-0 right-0 lg:flex lg:items-center">
-          <button
-            class="mt-24 lg:mt-0 -mr-6 h-12 w-12 rounded-full bg-white p-3 shadow-lg"
-          >
-            <svg
-              class="h-full w-full text-indigo-900"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M18.59 13H3a1 1 0 0 1 0-2h15.59l-5.3-5.3a1 1 0 1 1 1.42-1.4l7 7a1 1 0 0 1 0 1.4l-7 7a1 1 0 0 1-1.42-1.4l5.3-5.3z"
-              />
-            </svg>
-          </button>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/html.png" alt="">
         </div>
-      </div>
     </div>
-  </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/laravel.png" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/js.png" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/css.png" alt="">
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/livewire.png" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/python.png" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./assets/qt.png" alt="">
+        </div>
+    </div>
+</div>
+
+
 
   <div class="banner-2 md:flex items-center md:justify-evenly" id="about">
     <img
-      class="md:h-[500px] h-[400px]"
-      src="./assets/about-female.png"
+      class="md:h-[500px] h-[400px] mb-4 pb-4"
+      src="./assets/tab-gio.png"
       alt="user image"
     />
-    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-      <h4 class="project-title item">Sheepify States</h4>
-      <p class="font-work_sans">
-        I am Salman Khan from Lucknow, India. I am working in an Indian Startup
-        as a User Eperience Designer for the past two years.
-        <br />
-        I got featured various times on many big and small marketplaces,
-        portfolio websites and blogs. I also received some awards and
-        recognitions from some of the big and small award companies. Besides
-        designing, I like to watch anime, read books and solve sudoku.
-      </p>
-      <button class="text-sky-800 font-bold text-2xl tracking-wider">
-        View Case Study
-      </button>
-    </div>
+    <div class="flex gap-24" data-page="resume">
+    
+
+    <section class="text-teal-600">
+      <h5 class="h5 pb-4 pt-4 text-xl font-bold">
+              Experience
+            </h5>
+      <ol class="timeline-list">
+
+        <li class="timeline-item text-gray-500">
+          <h4 class="h4 timeline-item-title">
+            Software Developer 
+          </h4>
+          <span>March 2023 — Present</span>
+       
+          <p class="timeline-text pb-4">
+            Freelance
+          </p>
+        </li>
+
+        <li class="timeline-item text-gray-500">
+          <h4 class="h4 timeline-item-title">
+            Software Developer (Word Press)
+          </h4>
+          <span>November 2022 — February 2023</span>
+       
+          <p class="timeline-text pb-4">
+            Dice 205
+          </p>
+        </li>
+
+
+        <li class="timeline-item text-gray-500">
+          <h4 class="h4 timeline-item-title">
+            Software Developer
+          </h4>
+          <span>June 2022 — October 2022</span>
+       
+          <p class="timeline-text pb-4">
+            Freelance
+          </p>
+        </li>
+        
+        <li class="timeline-item text-gray-500">
+          <h4 class="h4 timeline-item-title">
+            Python Developer
+          </h4>
+          <span>July 2019 — May 2022</span>
+          <!-- <p class="timeline-item-desc">
+            Location
+          </p> -->
+          <p class="timeline-text">
+            Freelance
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="skill">
+      <ul class="skills-list content-card">
+        <li >
+            <h5 class="h5 pb-4 pt-4 text-xl font-bold text-teal-600">
+              Education
+            </h5>
+            
+            <p class="text-yellow-600 pb-4">
+              <span class="text-gray-500">School:</span> AMA Computer Learning Center
+            </p>
+            
+            <p class="text-yellow-600 pb-4">
+              <span class="text-gray-500">Course:</span> Computer System Design and Programming
+            </p>
+       
+            <p class="text-yellow-600 pb-8">
+              <span class="text-gray-500">GPA:</span> 3.8
+            </p>
+        </li>
+
+        <li >
+          <h5 class="text-xl font-bold pb-4 text-teal-600">
+            Achievements
+          </h5>
+         
+          <p class="text-yellow-600 pb-4">
+            <span class="text-gray-500">2nd Place</span> 48 hours Concati Hackathon
+          </p>
+          
+          <p class="text-yellow-600 pb-4">
+            <span class="text-gray-500">Best Programmer</span> Thesis ( Philhealth Information and Billing System )<br>
+            AMA Computer Learning Center
+          </p>
+        </li>
+
+      </ul>
+    </section>
+  </div>
   </div>
 
-  <div class="banner-1 flex h-full items-center">
-    <div class="w-7/12 p-12">
-      <h2 class="text-gray-700 md:text-6xl text-2xl font-Eczar mb-5 font-bold">
-        Let’s work together and make everything super cute and super useful.
-      </h2>
-      <a class="underline text-2xl text-blue-600 font-work_sans"
-        >📧 hire@author.com</a
-      >
-    </div>
-    <div class="w-5/12 pr-28">
+  <div class="banner-1 flex h-full items-center pb-8">
+
+    <div class="mx-auto">
       <div class="flex flex-wrap justify-end gap-2">
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+        <a href="https://www.facebook.com/giokuan/"
+          class="p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
         >
           <svg
             class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
@@ -360,55 +481,24 @@
               d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
             />
           </svg>
-        </button>
+        </a>
 
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+     
+
+        <a href="https://github.com/giokuan"
+          class=" p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+          
         >
-          <svg
-            class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-            />
-          </svg>
-        </button>
+        <svg 
+        class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
+        xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+        
+      </a>
+       
+ 
 
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
-        >
-          <svg
-            class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"
-            />
-          </svg>
-        </button>
-
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
-        >
-          <svg
-            class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
-            role="img"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"
-            />
-          </svg>
-        </button>
-
-        <button
-          class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+        <a href="https://www.linkedin.com/in/gio-kuan/"
+          class=" p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
         >
           <svg
             class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
@@ -422,7 +512,7 @@
               ></path>
             </g>
           </svg>
-        </button>
+        </a>
       </div>
     </div>
   </div>

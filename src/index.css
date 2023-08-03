@@ -29,7 +29,7 @@
 }
 
 .heading3 {
-  color: #403930;
+  color: #E7B10A;
   @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
 }
 
