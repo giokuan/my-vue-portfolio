@@ -10,8 +10,10 @@
   "dependencies": {
     "@iconify/iconify": "^3.1.1",
     "devicon": "^2.15.1",
+    "emailjs-com": "^3.2.0",
     "vue": "^3.2.25",
     "vue-router": "^4.2.4",
+    "vue-sweetalert2": "^5.0.5",
     "vue3-smooth-scroll": "^0.8.1"
   },
   "devDependencies": {

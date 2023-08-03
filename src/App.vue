@@ -4,7 +4,7 @@ import About from "./components/About.vue";
 import Stacks from "./components/Stacks.vue";
 import Footer from "./components/Footer.vue";
 import Projects from "./components/Projects.vue";
-import Contact from "./components/Contact.vue";
+import Contact from "./components/contact.vue";
 
   export default {
     data() {
@@ -97,7 +97,6 @@ import Contact from "./components/Contact.vue";
   <Stacks />
   <About />
   <ScrollUpArrow />
-  
   <Contact/>
   <Footer />
 </template>

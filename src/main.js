@@ -7,7 +7,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import About from './components/About.vue';
 import Stacks from './components/Stacks.vue';
 import Projects from './components/Projects.vue';
-import Contact from './components/Contact.vue';
+import Contact from './components/contact.vue';
 
 const app = createApp(App);
 
