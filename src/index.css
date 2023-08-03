@@ -38,7 +38,7 @@
 }
 
 .card {
-  @apply bg-white rounded-2xl md:flex place-items-center my-10 shadow-md;
+  @apply bg-[#444444] rounded-2xl md:flex place-items-center my-10 shadow-md;
 }
 .card-image {
   @apply md:w-full md:rounded-r-2xl md:rounded-l-none rounded-b-2xl flex;

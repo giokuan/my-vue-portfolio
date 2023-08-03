@@ -4,8 +4,8 @@
 
     <div class="card flex flex-col xl:flex-row justify-between">
       <div class="px-8  md:px-10">
-        <h4 class="text-2xl my-4 font-bold">SJMC Membership Management System</h4>
-        <p class="font-work_sans pr-4">
+        <h4 class="text-2xl my-4 font-bold text-yellow-600">SJMC MEMBERSHIP MANAGEMENT SYSTEM</h4>
+        <p class="font-work_sans pr-4 text-black">
           Tau Gamma Phi San Juan Municipal Council Membership Management System - is a web application <br>
           designed to facilitate the  management of fraternity membership for existing members of the 
           Tau Gamma Phi<br> San Juan Municipal Council. The systemleverages the TALL stack, which includes
@@ -42,7 +42,7 @@
     
     <div class="card flex flex-col xl:flex-row">
       <div class="px-8  md:px-10">
-        <h4 class="text-2xl my-4 font-bold">TINHS PORTAL</h4>
+        <h4 class="text-2xl my-4 font-bold text-yellow-600">TINHS PORTAL</h4>
         <p class="font-work_sans pr-4">
           This school portal I have developed combines custom middleware with multi-authentication to deliver an 
           innovative and inclusive educational experience for junior and senior high school students. By leveraging the power of technology, 
@@ -72,7 +72,7 @@
 
     <div class="card flex flex-col xl:flex-row">
       <div class="px-8  md:px-10">
-        <h4 class="text-2xl my-4 font-bold">PLANT BASE</h4>
+        <h4 class="text-2xl my-4 font-bold text-yellow-600">PLANT BASE</h4>
         <p class="font-work_sans pr-4">
           A plant shop web application where user can find and buy ornamnetal indoor and outdoor ornamental plants for decorations
           Aims to promote environmental awareness and influence people to take care of our planet by knowing how to grow plants.
@@ -104,7 +104,7 @@
 
     <div class="card flex flex-col xl:flex-row">
       <div class="px-8  md:px-10">
-        <h4 class="text-2xl my-4 font-bold">BARANGAY RESIDENT RECORD SYSTEM</h4>
+        <h4 class="text-2xl my-4 font-bold text-yellow-600">BARANGAY RESIDENT RECORD SYSTEM</h4>
         <p class="font-work_sans pr-4">
           A desktop software application developed using Python with PyQt5 and MySQL as the underlying technologies
           its primary purpose is to facilitate the management and organization of resident information within a barangay (local community)
@@ -135,7 +135,7 @@
 
     <div class="card flex flex-col xl:flex-row">
       <div class="px-8  md:px-10">
-        <h4 class="text-2xl my-4 font-bold">THE LAZY READER</h4>
+        <h4 class="text-2xl my-4 font-bold text-yellow-600">THE LAZY READER</h4>
         <p class="font-work_sans pr-4">
           The Lazy Reader is a Python project a local desktop application that aims to provide a text-to-speech solution <br>specifically designed for children.
           The primary functionality of the project is to convert text input into speech output, allowing children to listen to the text instead of reading it themselves.
@@ -165,7 +165,7 @@
 
     <div class="card flex flex-col xl:flex-row">
       <div class="px-8  md:px-10">
-        <h4 class="text-2xl my-4 font-bold">SJMC DATABASE MANAGEMENT SYSTEM</h4>
+        <h4 class="text-2xl my-4 font-bold text-yellow-600">SJMC DATABASE MANAGEMENT SYSTEM</h4>
         <p class="font-work_sans pr-4">
           The SJMC Database Management System is a desktop application developed using Python, PyQt5, and MySQL
           The primary objective of this system is to manage a database for an organization called TGP SJMC
