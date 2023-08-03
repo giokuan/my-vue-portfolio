@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .banner-1 {
-  @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  @apply px-5 pt-0 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
   background-color: #444444;
 }
 
@@ -20,7 +20,7 @@
   background-color: #ffddbf;
 }
 .menu-button {
-  @apply 3xl:text-2xl 2xl:text-2xl xl:text-xl lg:text-xl md:text-xl  font-bold font-work_sans hover:text-gray-500;
+  @apply  xl:text-xl lg:text-xl md:text-xl  font-bold font-work_sans hover:text-gray-500;
   color: #000000;
 }
 

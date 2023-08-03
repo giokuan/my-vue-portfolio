@@ -1,12 +1,29 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './index.css'
-import VueSmoothScroll from 'vue3-smooth-scroll'
-import router from "./router";
+import { createApp } from 'vue';
+import App from './App.vue';
+import './index.css';
+import VueSmoothScroll from 'vue3-smooth-scroll';
+import { createRouter, createWebHistory } from 'vue-router';
 
+import About from './components/About.vue';
+import Stacks from './components/Stacks.vue';
+import Projects from './components/Projects.vue';
+import Contact from './components/Contact.vue';
 
-const app = createApp(App)
+const app = createApp(App);
 
+const routes = [
+  { path: '/about', component: About },
+  { path: '/stacks', component: Stacks },
+  { path: '/projects', component: Projects },
+  { path: '/contact', component: Contact },
+
+];
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
+
+app.use(VueSmoothScroll);
 app.use(router);
-app.use(VueSmoothScroll)
-app.mount('#app')
+app.mount('#app');
