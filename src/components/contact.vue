@@ -15,30 +15,30 @@
             <form @submit.prevent="submitForm" class="mx-4 ">
               <div class="relative mb-6">
                 <label
-                  class="left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 "
+                  class="left-3 mb-0 max-w-[90%] truncate pt-[0.37rem] font-bold text-black"
                   for="from_name">Name
                 </label>
                 <input type="text" v-model="formData.name"
-                  class="peer block min-h-[auto] w-full rounded border bg-red py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-black data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                  class="peer block min-h-[auto] w-full rounded border border-black bg-neutral-500 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-black data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                   id="name" />
             
               </div>
               <div class="relative mb-6">
                 <label
-                  class="left-3 mb-0 max-w-[90%]  truncate pt-[0.37rem]  text-neutral-500 "
+                  class="left-3 mb-0 max-w-[90%]  truncate pt-[0.37rem] font-bold text-black"
                   for="from_email">Email address
                 </label>
                 <input type="email" v-model="formData.email"
-                  class="peer block min-h-[auto] w-full rounded border bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none  "
+                  class="peer block min-h-[auto] w-full rounded border border-black bg-neutral-500 py-[0.32rem] px-3 leading-[1.6] outline-none  "
                   id="email"  />
               
               </div>
               <div class="relative mb-6" data-te-input-wrapper-init>
                 <label for="message"
-                  class="left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 ">Message</label>
+                  class="left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] text-black font-bold">Message</label>
               
                 <textarea v-model="formData.message"
-                  class="peer block min-h-[auto] w-full rounded border bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                  class="peer block min-h-[auto] w-full rounded border border-black bg-neutral-500 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                   id="message" rows="3"></textarea>
               
                 </div>
@@ -51,7 +51,7 @@
                 </label>
               </div> -->
               <button type="button" @click="submitForm" data-te-ripple-init data-te-ripple-color="light"
-                class="mb-6 inline-block w-full rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                class="mb-6 inline-block w-full rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase text-white hover:bg-gray-900 hover:text-yellow-600">
                 Send
               </button>
             </form>
@@ -76,7 +76,7 @@
                       Phone
                     </p>
                   
-                    <p class="text-neutral-500 ">
+                    <p class="text-yellow-600 ">
                       +639263169179
                     </p>
                   </div>
@@ -99,7 +99,7 @@
                     <p class="mb-2 font-bold">
                       Email
                     </p>
-                    <p class="text-neutral-500">
+                    <p class="text-yellow-600">
                       giokuan@gmail.com
                     </p>
                   
@@ -125,7 +125,7 @@
                   </div>
                   <div class="ml-6 grow">
                     <p class="mb-2 font-bold dark:text-white">Address</p>
-                    <p class="text-neutral-500 dark:text-neutral-200">
+                    <p class="text-yellow-600 dark:text-neutral-200">
                       312 Tipas San Juan Batangas Philippines
                     </p>
               

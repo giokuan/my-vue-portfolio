@@ -20,7 +20,7 @@
   background-color: #ffddbf;
 }
 .menu-button {
-  @apply  xl:text-xl lg:text-xl md:text-xl  font-bold font-work_sans hover:text-gray-500;
+  @apply  xl:text-xl lg:text-xl md:text-xl  font-bold font-work_sans hover:text-yellow-600;
   color: #000000;
 }
 
