@@ -172,96 +172,237 @@
         <!-- main card -->
         <div class="banner-1 bg-[#F4F5FA] p-10 ">
             <!-- headers content-->
-            <div class="flex flex-col justify-center items-center text-center">
-                <div class="max-w-sm font-bold font-sans text-yellow-600 md:text-5xl text-xl font-bold font-work_sans tracking-wide text-center" id="stacks">
+            <!-- <div class="flex flex-col justify-center items-center text-center"> -->
+                <div class="max-w-sm pt-8 flex items-center font-bold font-sans text-yellow-600 md:text-4xl text-xl font-bold font-work_sans tracking-wide" id="stacks">
                     MY STACKS
                 </div>
                 <!-- <div class="font-light max-w-lg mt-5 text-sm">
                     All devices come with free delivery or pickup as standard. See information on available shopping
                     options for your location.
                 </div> -->
-            </div>
+            <!-- </div> -->
 
             <!-- subscriptions -->
-            <div class="flex flex-col md:flex-row space-x-0 md:space-x-8 space-y-12  md:space-y-0 justify-center items-center mt-10">
-                <div class="bg-white rounded-xl">
+            <div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-x-8  gap-y-12  justify-center items-center mt-10">
+                
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
+                </div>
+
+                <!-- <div class="bg-[#F9ECFF] rounded-xl">
                     <div class="flex flex-col p-2 rounded-xl bg-[#252525]  shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
                         <img src="../assets/qt.png" class="w-64 rounded-xl ">
                     </div>
+                </div> -->
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-xl transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-xl lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
                 </div>
 
                 <div class="bg-[#F9ECFF] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-[#252525]  shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
-                        <img src="../assets/qt.png" class="w-64 rounded-xl ">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
                     </div>
                 </div>
-
-                <div class="bg-[#FFFBEC] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
-                        <img src="../assets/qt.png" class="w-64 rounded-xl ">
-                    </div>
                 </div>
 
                 <div class="bg-[#F9ECFF] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
-                        <img src="../assets/qt.png" class="w-64 rounded-xl ">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
                     </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
                 </div>
 
 
-                <div class="bg-[#ECEEFF] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
-                        <img src="../assets/qt.png" class="w-64 rounded-xl ">
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
                     </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
                 </div>
 
-                <div class="bg-[#ECEEFF] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
-                        <img src="../assets/qt.png" class="w-64 rounded-xl ">
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
                     </div>
                 </div>
+                </div>
+
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
+                </div>
+
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
+                </div>
+
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
+                </div>
+
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
+                </div>
+
+                <div class="bg-[#F9ECFF] rounded-xl">
+                <div class="group relative block overflow-hidden rounded-md transition-all duration-500 translate-x-4 translate-y-4">
+                    <div class=" p-2 bg-[#252525] rounded-lg lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom " title="">
+                        <img src="../assets/qt.png " class="w-64 rounded-xl ">
+                    </div>
+                    <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-900 p-4 rounded shadow">
+                        <a href="#" class="hover:text-primary-600 text-md transition duration-500 font-medium text-yellow-600">PYQT5</a>
+                        <h6 class="hidden lg:block text-slate-400 text-xs text-gray-50">I used PYQT5 because it's a powerful cross-platform 
+                        application framework for developing desktop applications with a graphical user interface.
+                        </h6>
+                    </div>
+                </div>
+                </div>
+
+
 
             </div>
 
-            <div class="flex flex-col md:flex-row space-x-0 md:space-x-8 space-y-12  md:space-y-0 justify-center items-center mt-10">
+            <!-- <div class="flex flex-col md:flex-row space-x-0 md:space-x-8 space-y-12  md:space-y-0 justify-center items-center mt-10">
                 <div class="bg-[#FFFBEC] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
+                    <div class="flex flex-col p-2 rounded-xl bg-[#252525] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
                         <img src="../assets/qt.png" class="w-64 rounded-xl ">
                     </div>
                 </div>
 
                 <div class="bg-[#F9ECFF] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
+                    <div class="flex flex-col p-2 rounded-xl bg-[#252525] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
                         <img src="../assets/qt.png" class="w-64 rounded-xl ">
                     </div>
                 </div>
 
                 <div class="bg-[#FFFBEC] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
+                    <div class="flex flex-col p-2 rounded-xl bg-[#252525] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
                         <img src="../assets/qt.png" class="w-64 rounded-xl ">
                     </div>
                 </div>
 
                 <div class="bg-[#F9ECFF] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
+                    <div class="flex flex-col p-2 rounded-xl bg-[#252525] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
                         <img src="../assets/qt.png" class="w-64 rounded-xl ">
                     </div>
                 </div>
 
 
                 <div class="bg-[#ECEEFF] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
+                    <div class="flex flex-col p-2 rounded-xl bg-[#252525] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
                         <img src="../assets/qt.png" class="w-64 rounded-xl ">
                     </div>
                 </div>
 
                 <div class="bg-[#ECEEFF] rounded-xl">
-                    <div class="flex flex-col p-2 rounded-xl bg-white shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
+                    <div class="flex flex-col p-2 rounded-xl bg-[#252525] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
                         <img src="../assets/qt.png" class="w-64 rounded-xl ">
                     </div>
                 </div>
 
-            </div>
+            </div> -->
 
 
 
