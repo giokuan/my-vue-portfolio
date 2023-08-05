@@ -20,8 +20,8 @@
   background-color: #ffddbf;
 }
 .menu-button {
-  @apply  xl:text-xl lg:text-xl md:text-xl  font-bold font-work_sans hover:text-yellow-600;
-  color: #000000;
+  @apply  xl:text-lg lg:text-lg md:text-xl  font-bold font-work_sans hover:text-gray-500;
+  color: #ffb600;
 }
 
 .submit-button {
@@ -30,7 +30,7 @@
 
 .heading3 {
   color: #E7B10A;
-  @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
+  @apply md:text-4xl text-xl font-bold font-work_sans tracking-wide;
 }
 
 .project-title {

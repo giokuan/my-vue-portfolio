@@ -29,18 +29,20 @@ import Contact from "./components/contact.vue";
 <template>
 
 
-  <div class="banner-1 h-full">
+  <div class="background-image-container ">
+
     <!-- NavBar -->
+    
     <nav
-      class="container  mx-auto md:flex md:justify-between pr-16 bg-#444444"
+      class=" z-150 mx-auto md:flex md:justify-between pr-12 xl:pr-16 bg-#444444"
     >
       <div class="flex items-center justify-between">
       
         <!-- Mobile menu button -->
-        <div @click="showMenu = !showMenu" class="flex md:hidden">
+        <div @click="showMenu = !showMenu" class="flex md:hidden ">
           <button
             type="button"
-            class="text-gray-800 hover:text-gray-400 focus:outline-none focus:text-gray-400"
+            class="text-yellow-600 mt-4 ml-4 hover:text-gray-400 focus:outline-none focus:text-gray-400"
           >
             <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
               <path
@@ -54,42 +56,39 @@ import Contact from "./components/contact.vue";
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-black"
+        class="flex-col items-end  space-y-4 md:flex md:space-y-0 md:flex-row md:items-center  md:space-x-10 md:mt-4  z-20"
       >
         <!-- <li class="menu-button"><a href="#">Home</a></li> -->
         <li class="menu-button"><a href="#work" v-smooth-scroll>PROJECTS</a></li>
-        <li class="menu-button">
-          <a href="#stacks" v-smooth-scroll>MY STACKS</a>
-        </li>
+        <li class="menu-button"><a href="#stacks" v-smooth-scroll>MY STACKS</a></li>
         <li class="menu-button"><a href="#about" v-smooth-scroll>ABOUT</a></li>
         <li class="menu-button"><a href="#contact" v-smooth-scroll>CONTACT</a></li>
       </ul>
     </nav>
-    <!-- End Navbar -->
 
-    <div class="flex flex-col mt-16 items-center">
-      <div class="relative pl-6">
+
+    
+<!-- <div class="mb-48"></div>
+    <div class="flex flex-col  items-center">
+      <div class=" pl-6 ">
           <img
-            class="rounded-full border border-black shadow-sm w-40 h-40 mb-4"
+            class="rounded-full border border-black shadow-sm w-40 h-40 mb-4 "
             src="./assets/gio.png"
             alt="user image"
           />
         </div>
       <div class="w-full ">
         <h1
-          class="3xl:text-4xl 2xl:text-7xl xl:text-6xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl font-Eczar font-bold leading-tight text-black flex justify-center"
+          class="3xl:text-4xl 2xl:text-7xl xl:text-6xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl font-Eczar font-bold leading-tight text-white flex justify-center"
         >
            Giovanni Kuan
         </h1>
-        <p class="text-xl xl:text-2xl mb-4 flex items-center justify-center text-yellow-500" >Software Developer</p>
-        <p class="text-xl xl:text-2xl mb-4 flex items-center justify-center"> I am a self-taught Software developer who designs and develops<br> fully-fledged and functioning platforms with databases.</p>
+        <p class="text-xl xl:text-2xl mb-2 flex items-center justify-center text-yellow-500" >Software Developer</p>
+        <p class="text-md  mb-2 flex items-center justify-center text-white"> I am a self-taught Software developer who designs and develops fully-fledged and functioning platforms with databases.</p>
 
       </div>
 
-      <div class="w-8/12 flex justify-end">
- 
-      </div>
-    </div>
+    </div> -->
   </div>
 
 
@@ -101,3 +100,18 @@ import Contact from "./components/contact.vue";
   <Footer />
 </template>
 
+<style>
+.background-image-container {
+  /* Set the background image URL */
+  background-image: url('./assets/hero.png');
+  
+  /* Set the background size and positioning using Tailwind CSS classes */
+  /* Adjust the classes as needed */
+  background-size: cover;
+  background-position: center;
+  
+  /* Set the container's height to display the background image */
+  height: 750px; /* Adjust this height to fit your needs */
+}
+
+</style>

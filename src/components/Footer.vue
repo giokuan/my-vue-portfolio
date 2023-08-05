@@ -1,6 +1,6 @@
 <template>
 
-<div class="banner-2 flex h-full items-center pb-8">
+<div class="banner-2 flex h-full items-center pb-2">
 
 <div class="mx-auto">
   <div class="flex flex-wrap justify-end gap-2">
@@ -9,7 +9,7 @@
       class="p-2 font-semibold text-white inline-flex items-center space-x-2 rounded hover:text-yellow-600"
     >
       <svg
-        class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
+        class="w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
         role="img"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -30,7 +30,7 @@
       class=" p-2 font-semibold text-white inline-flex items-center space-x-2 rounded hover:text-yellow-600"
     >
     <svg 
-      class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
+      class="w-8 h-8  md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
       xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 496 512">
       <path 
       d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 
@@ -59,7 +59,7 @@
       class=" p-2 font-semibold text-white inline-flex items-center space-x-2 rounded hover:text-yellow-600"
     >
       <svg
-        class="w-4 h-4 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
+        class="w-8 h-8  md:w-10 md:h-10 lg:w-10 lg:h-10 xl:h-10 xl:w-10 fill-current"
         role="img"
         viewBox="0 0 256 256"
         xmlns="http://www.w3.org/2000/svg"
@@ -93,4 +93,17 @@
   </div>
 </div>
 </div>
+<div class="banner-2 flex items-center justify-center text-center gap-2 text-yellow-600 pb-4">
+  <div class="flex items-center justify-center">
+    This Site is made with 
+  </div>
+ 
+  <div class="flex items-center justify-center">
+    <svg viewBox="0 0 128 128"  class="w-4 h-4">
+      <path d="M0 8.934l49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637l-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008l-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17l23.002.009m-23.002-.01l23.002.01" fill="none"></path><path d="M25.997 9.393l23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z" fill="#35495e"></path><path d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z" fill="#41b883"></path>
+    </svg>
+  </div>
+
+</div>
+
 </template>

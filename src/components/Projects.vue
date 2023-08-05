@@ -1,6 +1,6 @@
 <template>
    <div class="banner-2 space-y-10 pb-20" id="work">
-    <h3 class="heading3 my-5">My Recent Work</h3>
+    <h3 class="heading3 my-5">MY RECENT WORKS</h3>
 
     <div class="card flex flex-col xl:flex-row justify-between">
       <div class="px-8  md:px-10">
@@ -14,6 +14,36 @@
           communication between fraternity members and administrators.
         </p>
     
+ 
+          <div class="mt-12 mb-4 flex text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
+          <div class=" flex gap-4">
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/tailwind.png"/>
+            <p class="text-gray-500">TAILWIND</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/alpine.png" />
+            <p class="text-gray-500">ALPINE JS</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/laravel.png" />
+            <p class="text-gray-500">LARAVEL</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/livewire.png" />
+            <p class="text-gray-500">LIVEWIRE</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png" />
+            <p class="text-gray-500">MYSQL</p>
+          </div>
+        </div>
+
+      
 
         <!-- <button class="text-sky-800 font-bold text-2xl tracking-wider">
           View Case Study
@@ -49,7 +79,36 @@
           I aim to bridge the gap between students, teachers, and administrators, creating a seamless ecosystem.
           
         </p>
-      
+
+        <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
+       
+          <div class="flex flex-wrap gap-4">
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/tailwind.png"/>
+            <p class="text-gray-500">TAILWIND</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/alpine.png" />
+            <p class="text-gray-500">ALPINE JS</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/laravel.png" />
+            <p class="text-gray-500">LARAVEL</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/livewire.png" />
+            <p class="text-gray-500">LIVEWIRE</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png" />
+            <p class="text-gray-500">MYSQL</p>
+          </div>
+        </div>
+  
       </div>
       <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
         <img
@@ -78,10 +137,21 @@
           Aims to promote environmental awareness and influence people to take care of our planet by knowing how to grow plants.
           
         </p>
-        <!-- <button class="text-sky-800 font-bold text-2xl tracking-wider">
-          View Case Study
-        </button> -->
+      
+        <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
+        <div class="flex flex-wrap gap-4">
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/vanillajs.png"/>
+            <p class="text-gray-500">VANILLA JS</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/fetch.png"/>
+            <p class="text-gray-500">FETCH API</p>
+          </div>
+        </div>
       </div>
+
       <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
         <img
           class="xl:object-cover w-full h-full px-4 md:px-8"
@@ -111,6 +181,27 @@
           The system provides various search functionalities to efficiently retrieve specific groups of residents based on different criteria
           
         </p>
+
+           
+        <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
+        <div class="flex flex-wrap gap-4">
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/python.png"/>
+            <p class="text-gray-500">PYTHON</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/qt.png"/>
+            <p class="text-gray-500">PYQT5</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png"/>
+            <p class="text-gray-500">MYSQL</p>
+          </div>
+        </div>
+
+        
    
       </div>
       <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
@@ -142,6 +233,25 @@
           Additionally, the project offers three different themes for children to choose from, enhancing the user experience and making it more engaging
           
         </p>
+
+                 
+        <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
+        <div class="flex flex-wrap gap-4">
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/python.png"/>
+            <p class="text-gray-500">PYTHON</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/qt.png"/>
+            <p class="text-gray-500">PYQT5</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png"/>
+            <p class="text-gray-500">MYSQL</p>
+          </div>
+        </div>
      
       </div>
       <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
@@ -170,6 +280,25 @@
           The SJMC Database Management System is a desktop application developed using Python, PyQt5, and MySQL
           The primary objective of this system is to manage a database for an organization called TGP SJMC
         </p>
+
+                 
+        <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
+        <div class="flex flex-wrap gap-4">
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/python.png"/>
+            <p class="text-gray-500">PYTHON</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/qt.png"/>
+            <p class="text-gray-500">PYQT5</p>
+          </div>
+
+          <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png"/>
+            <p class="text-gray-500">MYSQL</p>
+          </div>
+        </div>
        
       </div>
       <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">

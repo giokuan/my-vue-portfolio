@@ -1,8 +1,13 @@
 
 
 <template>
+          <div class="banner-2 text-center ">
+            <h2 class=" pt-4 px-6 mb-4 text-3xl font-bold text-yellow-600" id="about">ABOUT</h2>
+            <p class="text-xl  flex items-center justify-center text-gray-500"> I am a self-taught Software developer who designs and develops fully-fledged and functioning platforms with databases.</p>
+          </div>
 
-<div class="banner-2 flex flex-col xl:flex-row items-center md:justify-evenly" id="about">
+<div class="banner-2 flex flex-col xl:flex-row items-center md:justify-evenly" >
+          
     <div>
     <img
       class="md:h-[500px] h-[400px] mb-4 pb-4"

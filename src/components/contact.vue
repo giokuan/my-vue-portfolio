@@ -6,7 +6,7 @@
       <section class="mb-8">
         <div class="flex justify-center">
           <div class="text-center md:max-w-xl lg:max-w-3xl">
-            <h2 class="mb-12 px-6 text-3xl font-bold">Contact me</h2>
+            <h2 class="mb-12 pt-4 px-6 text-3xl font-bold text-yellow-600">CONTACT</h2>
           </div>
         </div>
 
