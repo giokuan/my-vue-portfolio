@@ -19,7 +19,7 @@
                   for="from_name">Name
                 </label>
                 <input type="text" v-model="formData.name"
-                  class="peer block min-h-[auto] w-full rounded border border-black bg-neutral-500 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-black data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                  class="peer block min-h-[auto] w-full rounded border border-black bg-gray-300 py-[0.32rem] px-3 leading-[1.6] outline-none "
                   id="name" />
             
               </div>
@@ -29,16 +29,16 @@
                   for="from_email">Email address
                 </label>
                 <input type="email" v-model="formData.email"
-                  class="peer block min-h-[auto] w-full rounded border border-black bg-neutral-500 py-[0.32rem] px-3 leading-[1.6] outline-none  "
+                  class="peer block min-h-[auto] w-full rounded border border-black bg-gray-300 py-[0.32rem] px-3 leading-[1.6] outline-none  "
                   id="email"  />
               
               </div>
-              <div class="relative mb-6" data-te-input-wrapper-init>
+              <div class="relative mb-6" >
                 <label for="message"
                   class="left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] text-black font-bold">Message</label>
               
                 <textarea v-model="formData.message"
-                  class="peer block min-h-[auto] w-full rounded border border-black bg-neutral-500 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                  class="peer block min-h-[auto] w-full rounded border border-black bg-gray-300 py-[0.32rem] px-3 leading-[1.6] outline-none "
                   id="message" rows="3"></textarea>
               
                 </div>
@@ -191,6 +191,12 @@ export default {
     
         console.log(response); // Handle the response from EmailJS API
         await Swal.fire('Thank you!', 'Email sent successfully!', 'success');
+
+          // Clear the form fields after successful submission
+        this.formData.name = '';
+        this.formData.email = '';
+        this.formData.message = '';
+        this.formData.sendCopy = false;
        
 
       } catch (error) {
