@@ -8,8 +8,8 @@
         <p class="font-work_sans pr-4 text-black">
           Tau Gamma Phi San Juan Municipal Council Membership Management System - is a web application <br>
           designed to facilitate the  management of fraternity membership for existing members of the 
-          Tau Gamma Phi<br> San Juan Municipal Council. The systemleverages the TALL stack, which includes
-          Tailwind CSS, Alpine.js, Laravel, and Livewire. Theprimary objective of the system is to provide 
+          Tau Gamma Phi<br> San Juan Municipal Council. The system leverages the TALL stack, which includes
+          Tailwind CSS, Alpine.js, Laravel, and Livewire. The primary objective of the system is to provide 
           an intuitive and efficient platform for managing fraternity membership information and facilitating
           communication between fraternity members and administrators.
         </p>
