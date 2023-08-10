@@ -66,29 +66,6 @@ import Contact from "./components/contact.vue";
       </ul>
     </nav>
 
-
-    
-<!-- <div class="mb-48"></div>
-    <div class="flex flex-col  items-center">
-      <div class=" pl-6 ">
-          <img
-            class="rounded-full border border-black shadow-sm w-40 h-40 mb-4 "
-            src="./assets/gio.png"
-            alt="user image"
-          />
-        </div>
-      <div class="w-full ">
-        <h1
-          class="3xl:text-4xl 2xl:text-7xl xl:text-6xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl font-Eczar font-bold leading-tight text-white flex justify-center"
-        >
-           Giovanni Kuan
-        </h1>
-        <p class="text-xl xl:text-2xl mb-2 flex items-center justify-center text-yellow-500" >Software Developer</p>
-        <p class="text-md  mb-2 flex items-center justify-center text-white"> I am a self-taught Software developer who designs and develops fully-fledged and functioning platforms with databases.</p>
-
-      </div>
-
-    </div> -->
   </div>
 
 

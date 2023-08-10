@@ -12,6 +12,7 @@ import Contact from './components/contact.vue';
 const app = createApp(App);
 
 const routes = [
+  { path: '/', component: App},
   { path: '/about', component: About },
   { path: '/stacks', component: Stacks },
   { path: '/projects', component: Projects },

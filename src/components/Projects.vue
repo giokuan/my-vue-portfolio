@@ -16,30 +16,30 @@
     
  
           <div class="mt-12 mb-4 flex text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
-          <div class=" flex gap-4">
+          <div class=" flex flex-wrap gap-4">
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/tailwind.png"/>
-            <p class="text-gray-500">TAILWIND</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/tailwind.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">TAILWIND</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/alpine.png" />
-            <p class="text-gray-500">ALPINE JS</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/alpine.png" />
+            <p class="text-gray-500 hover:text-yellow-500">ALPINE JS</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/laravel.png" />
-            <p class="text-gray-500">LARAVEL</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/laravel-small.png" />
+            <p class="text-gray-500 hover:text-yellow-500">LARAVEL</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/livewire.png" />
-            <p class="text-gray-500">LIVEWIRE</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/livewire-small.png" />
+            <p class="text-gray-500 hover:text-yellow-500">LIVEWIRE</p>
           </div>
 
-          <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png" />
-            <p class="text-gray-500">MYSQL</p>
+          <div class="flex flex-col text-center ">
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/mysql-small.png" />
+            <p class="text-gray-500 hover:text-yellow-500">MYSQL</p>
           </div>
         </div>
 
@@ -58,7 +58,7 @@
 
         <div class="flex gap-8 items-center justify-center">
           <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
-          <a href="#">VIEW LIVE</a>
+          <a href="http://sjmc.online/">VIEW LIVE</a>
         </p>
 
         <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
@@ -84,28 +84,28 @@
        
           <div class="flex flex-wrap gap-4">
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/tailwind.png"/>
-            <p class="text-gray-500">TAILWIND</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/tailwind.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">TAILWIND</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/alpine.png" />
-            <p class="text-gray-500">ALPINE JS</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/alpine.png" />
+            <p class="text-gray-500 hover:text-yellow-500">ALPINE JS</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/laravel.png" />
-            <p class="text-gray-500">LARAVEL</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/laravel-small.png" />
+            <p class="text-gray-500 hover:text-yellow-500">LARAVEL</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/livewire.png" />
-            <p class="text-gray-500">LIVEWIRE</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/livewire-small.png" />
+            <p class="text-gray-500 hover:text-yellow-500">LIVEWIRE</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png" />
-            <p class="text-gray-500">MYSQL</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/mysql-small.png" />
+            <p class="text-gray-500 hover:text-yellow-500">MYSQL</p>
           </div>
         </div>
   
@@ -122,7 +122,7 @@
         </p>
 
         <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
-          <a href="#">VIDEO DEMO</a>
+          <a href="https://youtu.be/2jMDMhAPTjk">VIDEO DEMO</a>
         </p>
         </div>
      
@@ -141,13 +141,13 @@
         <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
         <div class="flex flex-wrap gap-4">
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/vanillajs.png"/>
-            <p class="text-gray-500">VANILLA JS</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/vanillajs.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">VANILLA JS</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/fetch.png"/>
-            <p class="text-gray-500">FETCH API</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/fetch.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">FETCH API</p>
           </div>
         </div>
       </div>
@@ -186,18 +186,18 @@
         <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
         <div class="flex flex-wrap gap-4">
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/python.png"/>
-            <p class="text-gray-500">PYTHON</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/python-small.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">PYTHON</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/qt.png"/>
-            <p class="text-gray-500">PYQT5</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/qt.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">PYQT5</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png"/>
-            <p class="text-gray-500">MYSQL</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/mysql-small.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">MYSQL</p>
           </div>
         </div>
 
@@ -238,18 +238,18 @@
         <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
         <div class="flex flex-wrap gap-4">
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/python.png"/>
-            <p class="text-gray-500">PYTHON</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/python-small.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">PYTHON</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/qt.png"/>
-            <p class="text-gray-500">PYQT5</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/qt.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">PYQT5</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png"/>
-            <p class="text-gray-500">MYSQL</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/mysql-small.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">MYSQL</p>
           </div>
         </div>
      
@@ -285,18 +285,18 @@
         <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
         <div class="flex flex-wrap gap-4">
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/python.png"/>
-            <p class="text-gray-500">PYTHON</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/python-small.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">PYTHON</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/qt.png"/>
-            <p class="text-gray-500">PYQT5</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/qt.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">PYQT5</p>
           </div>
 
           <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full " src="../assets/mysql.png"/>
-            <p class="text-gray-500">MYSQL</p>
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/mysql-small.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">MYSQL</p>
           </div>
         </div>
        
