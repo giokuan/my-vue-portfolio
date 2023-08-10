@@ -41,6 +41,17 @@
             <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/mysql-small.png" />
             <p class="text-gray-500 hover:text-yellow-500">MYSQL</p>
           </div>
+
+
+          <div class="flex flex-col text-center ">
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/forge.png" />
+            <p class="text-gray-500 hover:text-yellow-500">FORGE</p>
+          </div>
+
+          <div class="flex flex-col text-center items-center">
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/digital-ocean.png" />
+            <p class="text-gray-500 hover:text-yellow-500 text-center">DIGITAL OCEAN</p>
+          </div>
         </div>
 
       
@@ -164,7 +175,7 @@
         </p>
 
         <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
-          <a href="https://plantbase-group11-mini-project-2.vercel.app/index.html">VIEW LIVE</a>
+          <a href="https://plant-base-project-10eitkzhu-giokuan.vercel.app/">VIEW LIVE</a>
         </p>
         </div>
      
