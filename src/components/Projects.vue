@@ -161,19 +161,19 @@
       
         <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
         <div class="flex flex-wrap gap-4">
-          <div class="flex flex-col text-center">
+          <div class="flex flex-col text-center items-center">
             <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/vanillajs.png"/>
             <p class="text-gray-500 hover:text-yellow-500">VANILLA JS</p>
           </div>
 
-          <div class="flex flex-col text-center">
+          <div class="flex flex-col text-center items-center">
             <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/bootstrap.png"/>
             <p class="text-gray-500 hover:text-yellow-500">BOOTSTRAP</p>
           </div>
 
           <div class="flex flex-col text-center">
             <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/fetch.png"/>
-            <p class="text-gray-500 hover:text-yellow-500">FETCH API</p>
+            <p class="text-gray-500 hover:text-yellow-500">API</p>
           </div>
         </div>
       </div>
