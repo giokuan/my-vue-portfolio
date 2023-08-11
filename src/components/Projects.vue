@@ -73,7 +73,7 @@
         </p>
 
         <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
-          <a href="#">VIDEO DEMO</a>
+          <a href="https://www.youtube.com/watch?v=QpB0usKbhTU">VIDEO DEMO</a>
         </p>
         </div>
      
