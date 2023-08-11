@@ -167,6 +167,11 @@
           </div>
 
           <div class="flex flex-col text-center">
+            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/bootstrap.png"/>
+            <p class="text-gray-500 hover:text-yellow-500">BOOTSTRAP</p>
+          </div>
+
+          <div class="flex flex-col text-center">
             <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/fetch.png"/>
             <p class="text-gray-500 hover:text-yellow-500">FETCH API</p>
           </div>
