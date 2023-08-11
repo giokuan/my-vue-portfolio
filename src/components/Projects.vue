@@ -299,52 +299,6 @@
       </div>
     </div>
 
-    <div class="card flex flex-col xl:flex-row">
-      <div class="px-8  md:px-10">
-        <h4 class="text-2xl my-4 font-bold text-yellow-600">SJMC DATABASE MANAGEMENT SYSTEM</h4>
-        <p class="font-work_sans pr-4">
-          The SJMC Database Management System is a desktop application developed using Python, PyQt5, and MySQL
-          The primary objective of this system is to manage a database for an organization called TGP SJMC
-        </p>
-
-                 
-        <div class="flex mt-12 mb-4 text-center text-yellow-600">TECH USE IN THIS PROJECT:</div>
-        <div class="flex flex-wrap gap-4">
-          <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/python-small.png"/>
-            <p class="text-gray-500 hover:text-yellow-500">PYTHON</p>
-          </div>
-
-          <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/qt.png"/>
-            <p class="text-gray-500 hover:text-yellow-500">PYQT5</p>
-          </div>
-
-          <div class="flex flex-col text-center">
-            <img class="w-16 h-16 rounded-full hover:scale-110" src="../assets/mysql-small.png"/>
-            <p class="text-gray-500 hover:text-yellow-500">MYSQL</p>
-          </div>
-        </div>
-       
-      </div>
-      <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
-        <img
-          class="xl:object-cover w-full h-full px-4 md:px-8"
-          src="../assets/sjmclocal.png"
-        />
-
-        <div class="flex gap-8 items-center justify-center">
-          <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
-          <a href="https://github.com/giokuan/SJBMConcil">SOURCE CODE</a>
-        </p>
-
-        <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
-          <a href="https://www.youtube.com/watch?v=4mw45G05bRk&t=8s">VIDEO DEMO</a>
-        </p>
-        </div>
-     
-      </div>
-    </div>
 
   </div>
 

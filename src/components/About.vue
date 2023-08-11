@@ -3,7 +3,10 @@
 <template>
           <div class="banner-2 text-center ">
             <h2 class=" pt-4 px-6 mb-4 text-3xl font-bold text-yellow-600" id="about">ABOUT</h2>
-            <p class="text-xl  flex items-center justify-center text-gray-500"> I am a Software developer who designs and develops fully-fledged and functioning platforms with databases.</p>
+            <p class="text-xl  flex items-center justify-center text-gray-500"> My freelance journey has afforded me a deep understanding of both 
+              front-end and back-end development, and I have successfully executed numerous projects using the Laravel framework and Vue.js. 
+              These technologies allow me to create dynamic and responsive web applications that deliver exceptional user experiences
+            </p>
           </div>
 
 <div class="banner-2 flex flex-col xl:flex-row items-center md:justify-evenly" >
@@ -28,14 +31,14 @@
           <h4 class="h4 timeline-item-title">
             Software Developer 
           </h4>
-          <span>March 2023 — Present</span>
+          <span>June 2022 — Present</span>
        
           <p class="timeline-text pb-4">
             Freelance
           </p>
         </li>
 
-        <li class="timeline-item text-gray-500">
+        <!-- <li class="timeline-item text-gray-500">
           <h4 class="h4 timeline-item-title">
             Software Developer (Word Press)
           </h4>
@@ -56,7 +59,7 @@
           <p class="timeline-text pb-4">
             Freelance
           </p>
-        </li>
+        </li> -->
         
         <li class="timeline-item text-gray-500 md:pb-4">
           <h4 class="h4 timeline-item-title">
@@ -84,13 +87,11 @@
               <span class="text-gray-500">School:</span> AMA Computer Learning Center
             </p>
             
-            <p class="text-yellow-600 pb-4">
+            <p class="text-yellow-600 pb-8">
               <span class="text-gray-500">Course:</span> Computer System Design and Programming
             </p>
        
-            <p class="text-yellow-600 pb-8">
-              <span class="text-gray-500">GPA:</span> 3.8
-            </p>
+         
         </li>
 
         <li >
