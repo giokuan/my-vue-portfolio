@@ -139,7 +139,7 @@
 
         <div class="flex gap-8 items-center justify-center">
           <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
-          <a href="#">VIEW LIVE</a>
+          <a href="https://tinhs-portal.tech/">VIEW LIVE</a>
         </p>
 
         <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
