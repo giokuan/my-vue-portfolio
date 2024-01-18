@@ -6,9 +6,3 @@ export default defineConfig({
   plugins: [vue()]
 })
 
-
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/my-vue-portfolio/'
-    : '/'
-}
