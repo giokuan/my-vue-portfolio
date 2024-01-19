@@ -177,7 +177,7 @@ export default {
           send_copy:  'Yes',
         };
 
-        // Send the email using EmailJS API
+        // Send the email using EmailJS API//
         const response = await emailjs.send(
           this.emailServiceId,
           this.emailTemplateId,
