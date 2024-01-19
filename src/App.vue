@@ -56,7 +56,7 @@ import Contact from "./components/contact.vue";
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col items-end  space-y-4 md:flex md:space-y-0 md:flex-row md:items-center  md:space-x-10 md:mt-4  z-20"
+        class="flex-col items-end  space-y-4 md:flex md:space-y-0 md:flex-row md:items-center  md:space-x-10 md:mt-4  z-20 "
       >
         <!-- <li class="menu-button"><a href="#">Home</a></li> -->
         <li class="menu-button"><a href="#work" v-smooth-scroll>PROJECTS</a></li>

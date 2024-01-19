@@ -3,9 +3,10 @@
 <template>
           <div class="banner-2 text-center flex flex-col items-center justify-center">
             <h2 class=" pt-4 px-6 mb-4 text-3xl font-bold text-yellow-600 " id="about">ABOUT</h2>
-            <p class="text-xl  text-gray-500  max-w-5xl"> My freelance journey has afforded me a deep understanding of both 
-              front-end and back-end development, and I have successfully executed numerous projects using the Laravel framework and Vue.js. 
-              These technologies allow me to create dynamic and responsive web applications that deliver exceptional user experiences
+            <p class="text-xl  text-gray-500  max-w-5xl"> 
+              As a freelance programmer, I thrive in the dynamic world of independent project work, 
+              offering my expertise to clients seeking tailored software solutions. With a foundation 
+              in Python, Javascipt and PHP a diverse skill set, I am well-equipped to tackle a variety of programming challenges.
             </p>
           </div>
 
