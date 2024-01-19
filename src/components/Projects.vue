@@ -64,7 +64,7 @@
       <div class="card-image flex flex-col h-full m-4 pt-12 xl:m-2">
         <img
           class="xl:object-cover w-full h-full px-4 md:px-8"
-          src="../assets/sjmc.png"
+          src="../assets/sjmc-logo.png"
         />
 
         <div class="flex gap-8 items-center justify-center">
