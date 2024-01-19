@@ -6,7 +6,7 @@
             <p class="text-xl  text-gray-500  max-w-5xl"> 
               As a freelance programmer, I thrive in the dynamic world of independent project work, 
               offering my expertise to clients seeking tailored software solutions. With a foundation 
-              in Python, Javascipt and PHP a diverse skill set, I am well-equipped to tackle a variety of programming challenges.
+              in Python, Javascript and PHP a diverse skill set, I am well-equipped to tackle a variety of programming challenges.
             </p>
           </div>
 
