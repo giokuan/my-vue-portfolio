@@ -91,4 +91,13 @@ import Contact from "./components/contact.vue";
   height: 750px; /* Adjust this height to fit your needs */
 }
 
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media screen and (max-width: 767px) {
+  .background-image-container {
+    /* Override background image for mobile screens */
+    background-image: url('./assets/hero-mobile.png');
+  }
+}
+
+
 </style>
