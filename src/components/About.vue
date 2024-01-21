@@ -30,37 +30,37 @@
 
         <li class="timeline-item text-gray-500">
           <h4 class="h4 timeline-item-title">
-            Software Developer 
+            Programmer
           </h4>
-          <span>June 2022 — Present</span>
+          <span>March 2023 — Present</span>
        
           <p class="timeline-text pb-4">
             Freelance
           </p>
         </li>
 
-        <!-- <li class="timeline-item text-gray-500">
+        <li class="timeline-item text-gray-500">
           <h4 class="h4 timeline-item-title">
-            Software Developer (Word Press)
+            Software Developer (Php, Word Press)
           </h4>
           <span>November 2022 — February 2023</span>
        
           <p class="timeline-text pb-4">
-            Dice 205
+            Dice 205 (Internship)
           </p>
         </li>
 
 
         <li class="timeline-item text-gray-500">
           <h4 class="h4 timeline-item-title">
-            Software Developer
+            Software Developer (TALL STACK)
           </h4>
           <span>June 2022 — October 2022</span>
        
           <p class="timeline-text pb-4">
             Freelance
           </p>
-        </li> -->
+        </li>
         
         <li class="timeline-item text-gray-500 md:pb-4">
           <h4 class="h4 timeline-item-title">
