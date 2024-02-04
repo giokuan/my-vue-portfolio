@@ -68,9 +68,9 @@
         />
 
         <div class="flex gap-8 items-center justify-center">
-          <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
+          <!-- <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
           <a href="http://sjmc.online/">VIEW LIVE</a>
-        </p>
+        </p> -->
 
         <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
           <a href="https://www.youtube.com/watch?v=QpB0usKbhTU">VIDEO DEMO</a>
@@ -138,9 +138,9 @@
         />
 
         <div class="flex gap-8 items-center justify-center">
-          <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
+          <!-- <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
           <a href="https://tinhs-portal.tech/">VIEW LIVE</a>
-        </p>
+        </p> -->
 
         <p class="font-bold mt-4 mb-4 text-xs md:text-md text-yellow-500 hover:text-teal-600 bg-black rounded-full  py-2 px-6">
           <a href="https://youtu.be/2jMDMhAPTjk">VIDEO DEMO</a>
